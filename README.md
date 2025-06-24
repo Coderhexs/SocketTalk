@@ -27,5 +27,27 @@ java server.ChatServer
 java client.ChatGUI
 ```
 
-## 👨‍💻 Built by
-- Sandip Ghosh | @QuantumCoderrr
+---
+
+## 🛠 Contributing
+
+Want to improve SocketTalk or add your own twist? Check out our [CONTRIBUTING.md](./CONTRIBUTING.md) and let’s collaborate!
+
+---
+
+## ⚖️ License
+
+This project is licensed under the [MIT License](./LICENSE). You’re free to use, modify, and distribute it — just credit the original work.
+
+---
+
+## 🙌 Acknowledgements
+
+Huge thanks to:
+- Java for keeping sockets spicy
+- Everyone who explores networking at the byte-level
+- Open source contributors who make dev better for all 🚀
+
+---
+
+Made with 💻 and ☕ by [Sandip Ghosh](https://github.com/QuantumCoderrr)
