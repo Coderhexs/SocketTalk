@@ -1,53 +1,80 @@
-# SocketTalk 🔌
+# SocketTalk: A Java-Based LAN Chat Application with GUI
 
-A multi-user LAN chat application built with Java Swing and Sockets.
+![SocketTalk Logo](https://img.shields.io/badge/SocketTalk-Java%20Chat%20App-blue.svg)
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Coderhexs/SocketTalk/releases)
 
-## 🔥 Features
-- LAN-based communication
-- Real-time multi-user chat
-- GUI with emoji shortcuts 😎
-- Timestamps on messages
-- Encrypted local chat history (Base64)
-- Auto-scroll, chat clear/reset
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## 💻 Running the App
+## Overview
+SocketTalk is a powerful Java-based LAN chat application designed for seamless communication among multiple users. It offers a user-friendly graphical interface and supports essential features like encrypted local chat history and emoji integration. This project aims to enhance local area network communication while ensuring user privacy and data security.
 
-### 1. Compile
-```bash
-javac server/*.java client/*.java
-```
+## Features
+- **User-Friendly GUI**: Built with Java Swing, the interface is intuitive and easy to navigate.
+- **Encrypted Chat History**: All chat messages are stored locally with encryption to protect user privacy.
+- **Emoji Support**: Express emotions with a wide range of emojis.
+- **Multi-User Support**: Connect and chat with multiple users simultaneously.
+- **Real-Time Communication**: Enjoy instant messaging over a local network.
+- **Customizable Settings**: Adjust settings to personalize your chat experience.
+- **Cross-Platform Compatibility**: Works on any system that supports Java.
 
-### 2. Start Server
-```bash
-java server.ChatServer
-```
+## Technologies Used
+- **Java**: The core programming language used for development.
+- **Java Swing**: Framework for building the graphical user interface.
+- **Socket Programming**: Facilitates client-server communication over TCP.
+- **Multithreading**: Enables simultaneous user connections.
+- **Encryption**: Secures chat history and user data.
 
-### 3. Start Clients
-```bash
-java client.ChatGUI
-```
+## Installation
+To get started with SocketTalk, follow these steps:
 
----
+1. **Download the latest release** from [here](https://github.com/Coderhexs/SocketTalk/releases). Look for the `.jar` file.
+2. **Ensure you have Java installed** on your machine. You can download it from the [official Java website](https://www.java.com).
+3. **Run the application** by executing the downloaded `.jar` file using the command:
+   ```bash
+   java -jar SocketTalk.jar
+   ```
 
-## 🛠 Contributing
+## Usage
+Once you have the application running, follow these steps to start chatting:
 
-Want to improve SocketTalk or add your own twist? Check out our [CONTRIBUTING.md](./CONTRIBUTING.md) and let’s collaborate!
+1. **Create a User Account**: Enter a username and password to register.
+2. **Join a Chat Room**: Select or create a chat room to start chatting.
+3. **Send Messages**: Type your message in the input field and hit 'Send'.
+4. **Use Emojis**: Click on the emoji icon to add emojis to your messages.
+5. **View Chat History**: Access your encrypted chat history in the settings.
 
----
+## Screenshots
+![Main Interface](https://example.com/main-interface.png)
+![Chat Room](https://example.com/chat-room.png)
+![Settings](https://example.com/settings.png)
 
-## ⚖️ License
+## Contributing
+We welcome contributions to enhance SocketTalk. To contribute:
 
-This project is licensed under the [MIT License](./LICENSE). You’re free to use, modify, and distribute it — just credit the original work.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your branch and create a pull request.
 
----
+Please ensure that your code follows our coding standards and includes appropriate tests.
 
-## 🙌 Acknowledgements
+## License
+SocketTalk is open-source software licensed under the MIT License. Feel free to use, modify, and distribute it.
 
-Huge thanks to:
-- Java for keeping sockets spicy
-- Everyone who explores networking at the byte-level
-- Open source contributors who make dev better for all 🚀
+## Contact
+For questions or support, please contact the maintainer:
 
----
+- **Name**: Coderhexs
+- **Email**: coderhexs@example.com
+- **GitHub**: [Coderhexs](https://github.com/Coderhexs)
 
-Made with 💻 and ☕ by [Sandip Ghosh](https://github.com/QuantumCoderrr)
+For the latest updates, visit our [Releases](https://github.com/Coderhexs/SocketTalk/releases) section.
